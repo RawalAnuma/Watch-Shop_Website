@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="Group 2" content="Course Work" />
+    <meta name="Author" content="Aayush, Asmit, Anuma, Sujita, Santoshi" />
+    <link rel="stylesheet" href="./../css/style.css" />
+    <title>Kalchakra</title>
+    <style>
+      /* Specific styles for the research page */
+
+      .research_img {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+      }
+      .research_img img {
+        height: 600px;
+        width: 900px;
+      }
+      ol {
+        text-align: center;
+      }
+      .research_explaination {
+        padding: 20px;
+        text-align: justify;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="../index.html">
+        <img src="./../resources/image/logo/logo.jpeg" alt="logo"
+      /></a>
+      <h1>The Wheel Of Time</h1>
+      <button>LogOut</button>
+    </header>
+    <!--creating nav bar section using table-->
+    <nav>
+      <table class="nav_table">
+        <tr>
+          <td><a href="./../index.html">Home</a></td>
+          <td><a href="blog.html">Blog</a></td>
+          <td><a href="products.html">Products</a></td>
+          <td><a style="color: #b4ecba" href="#">Research</a></td>
+          <td><a href="about_us.html">About Us</a></td>
+        </tr>
+      </table>
+    </nav>
+    <!-- a scroll up button to scroll the window to top -->
+    <button class="scroll_up" id="scroll_button" onclick="scroll_to_top()">
+      ↑
+    </button>
+    <h1 class="research_heading">Refrences pages</h1>
+    <div class="research">
+      <div class="research_content">
+        <!-- Ordered list for the research pages -->
+        <ol type="1">
+          <!-- Research Page 1: Header Bar And Nav Bar -->
+          <div class="research_page">
+            <li><h2>Header Bar And Nav Bar</h2></li>
+            <figure class="research_img">
+              <img src="./../resources/image/research/nav.jpeg" alt="Nav bar" />
+            </figure>
+            <p>https://www.amazon.com (Taken on 17/01/2025)</p>
+            <p class="research_explaination">
+              Our website's header and navbar design were inspired by Amazon's
+              structured layout but with a simplified approach. We reduced the
+              header elements to a logo and logout button. The navigation bar
+              retains primary links like “Home", “Blog", “Products”, and "About
+              Us".
+              <a target="_blank" href="https://www.amazon.com">
+                Check the original page</a
+              >
+              |
+              <a href="./../index.html">Check Our page</a>
+            </p>
+          </div>
+          <br />
+          <!-- Creates a horizontal line  -->
+          <hr />
+
+          <!-- Research Page 2: About Different Sections In Home Page -->
+          <div class="research_page">
+            <li><h2>About Different Sections In Home Page</h2></li>
+            <figure class="research_img">
+              <img
+                src="./../resources/image/research/section.jpeg"
+                alt="Sections"
+              />
+            </figure>
+            <p>https://www.rolex.com/watches (Taken on 17/01/2025)</p>
+            <p class="research_explaination">
+              In our home page, the layout about the different sections were
+              inspired from Rolex's. We changed the background color and also
+              added a image in the place of main bold text in those sections .
+              <a target="_blank" href="https://www.rolex.com/watches">
+                Check the original page</a
+              >
+              |
+              <a href="./../index.html">Check Our page</a>
+            </p>
+          </div>
+          <br />
+          <!-- Creates a horizontal line  -->
+          <hr />
+          <!-- Research Page 3: Footer -->
+          <div class="research_page">
+            <li><h2>Footer</h2></li>
+            <figure class="research_img">
+              <img
+                src="./../resources/image/research/footer.jpeg"
+                alt="Footer"
+              />
+            </figure>
+            <p>https://bonsairesourcecenter.com/blog/ (Taken on 17/01.2025)</p>
+            <p class="research_explaination">
+              The design of the footer draws inspiration from the Bonsai
+              Resource Center website footer. The color theme is changed from
+              the original site and also the subscribe section is removed
+              keeping Menu as "Quick Links" and "Follow US" and "Contact Us".
+              <a target="_blank" href="https://bonsairesourcecenter.com/blog/">
+                Check the original page</a
+              >
+              |
+              <a href="./../index.html">Check our page</a>
+            </p>
+          </div>
+          <br />
+          <!-- Creates a horizontal line  -->
+          <hr />
+          <!-- Research Page 4: Products Layout -->
+          <div class="research_page">
+            <li><h2>Products Layout</h2></li>
+            <figure class="research_img">
+              <img
+                src="./../resources/image/research/product.jpeg"
+                alt="Products Layout"
+              />
+            </figure>
+            <p>https://store.canon.co.uk/printers/ (Taken on 17/01/2025)</p>
+            <p class="research_explaination">
+              The layout of prodoct page is inspired from the Cannon website.
+              Four products are kept in a row as a flex container where their
+              discription and price are given. Box shadow is added to the the
+              products card and also the background color is changed compairing
+              to the original site.
+              <a target="_blank" href="https://store.canon.co.uk/printers/">
+                Check the original page </a
+              >|
+              <a href="products.html">Check our page</a>
+            </p>
+          </div>
+          <br />
+          <!-- Creates a horizontal line  -->
+          <hr />
+          <!-- Research Page 5: About Us Section -->
+          <div class="research_page">
+            <li><h2>About Us</h2></li>
+            <div class="research_img">
+              <img
+                src="./../resources/image/research/members.jpeg"
+                alt="About Us"
+              />
+            </div>
+            <p>https://www.dropbox.com/about (Taken on 17/01/2025)</p>
+            <p class="research_explaination">
+              In the About Us page, the layout about our team members was
+              inspired from Dropbox website. We created a card like structure
+              for the individual members and also added the border radius to the
+              images of the members.
+              <a target="_blank" href="https://www.dropbox.com/about">
+                Check the original page</a
+              >
+              |
+              <a href="about_us.html">Check our page</a>
+            </p>
+          </div>
+        </ol>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <div class="footer1">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="./../index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="#">Research</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+          </ul>
+        </div>
+        <div class="footer2">
+          <h3>Follow Us</h3>
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com/" target="_blank">Twitter</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer3">
+          <h3>Contact Us</h3>
+          <ul>
+            <li>Phone: 123-456-7890</li>
+            <li>Email: .......@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottomFooter">
+        <p>&copy; 2025 Kalchakra. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

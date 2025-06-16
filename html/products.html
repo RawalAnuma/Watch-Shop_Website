@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="Group 2" content="Course Work" />
+    <meta name="Author" content="Aayush, Asmit, Anuma, Sujita, Santoshi" />
+    <link rel="stylesheet" href="./../css/style.css" />
+    <title>Kalchakra</title>
+    <style>
+      /* Specific styles for the product page */
+
+      .row {
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .product {
+        width: 20%;
+        text-align: center;
+        background-color: #616161;
+        padding: 20px;
+        margin: 10px 15px;
+        border-radius: 10px;
+        box-shadow: 0 0 2px 2px #eee2e2; /* gives soft glowing effect */
+        color: white;
+      }
+
+      .product img {
+        height: 250px;
+        width: 250px;
+        border-radius: 10px;
+      }
+      .name {
+        font-size: 20px;
+      }
+      .discription {
+        text-align: justify;
+      }
+
+      del {
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <!-- header of product page-->
+      <a href="../index.html">
+        <img src="./../resources/image/logo/logo.jpeg" alt="logo"
+      /></a>
+      <h1>The Wheel Of Time</h1>
+      <button>LogOut</button>
+    </header>
+    <!--creating nav bar section using table-->
+    <nav>
+      <table class="nav_table">
+        <tr>
+          <td><a href="./../index.html">Home</a></td>
+          <td><a href="blog.html">Blog</a></td>
+          <td><a style="color: #b4ecba" href="#">Products</a></td>
+          <td><a href="research.html">Research</a></td>
+          <td><a href="about_us.html">About Us</a></td>
+        </tr>
+      </table>
+    </nav>
+    <!-- a scroll up button to scroll the window to top -->
+    <button class="scroll_up" id="scroll_button" onclick="scroll_to_top()">
+      ↑
+    </button>
+
+    <h1 class="product_heading">Products</h1>
+    <!-- section for the discriptions of the products -->
+    <section class="products">
+      <div class="allproducts">
+        <div class="row">
+          <div class="product">
+            <img src="./../resources/image/Product/watch1.jpeg" alt="watch" />
+            <p class="name">Kalchakra Analog 1</p>
+            <p class="discription">
+              A luxury wristwatch featuring a sleek silver metal band paired
+              with a black watch face. The face has minimalist white markings
+              and a date window for added functionality.
+            </p>
+            <p class="specs">
+              Specification: <br />
+              Material: Stainless steel band and case
+              <br />
+              Water Resistance: 30 meters
+            </p>
+            <br />
+            <br />
+            <p>
+              Rs 15000
+              <br />
+
+              <del>Rs 18000</del>
+            </p>
+            <button class="buy_button">Buy now</button>
+          </div>
+          <div class="product">
+            <img src="./../resources/image/Product/watch2.jpeg" alt="" />
+            <p class="name">Classic Ariantal</p>
+            <p class="discription">
+              A classic luxury wristwatch with a polished silver case and a
+              brown leather strap. The watch face is white and features a
+              smaller subdial along with a date window.
+            </p>
+            <p class="specs">
+              Specification: <br />
+              Material: Genuine leather strap, stainless steel case
+              <br />
+              Water Resistance: 30 meters
+            </p>
+            <br />
+            <p>
+              Rs 10000
+              <br />
+              <del>Rs 15000</del>
+            </p>
+            <button class="buy_button">Buy now</button>
+          </div>
+          <div class="product">
+            <img src="./../resources/image/Product/watch4.jpeg" alt="" />
+            <p class="name">Classic Kalchakra</p>
+            <p class="discription">
+              A luxury chronograph watch with a silver case and brown leather
+              strap. The watch face is white, featuring three black subdials.
+            </p>
+
+            <p class="specs">
+              Specification: <br />
+              Material: Genuine leather strap, stainless steel case
+              <br />
+              Water Resistance: 30 meters
+            </p>
+            <br />
+            <p>
+              Rs 17000
+              <br />
+              <del>Rs 18000</del>
+            </p>
+            <button class="buy_button">Buy now</button>
+          </div>
+
+          <div class="product">
+            <img src="./../resources/image/Product/watch7.jpeg" alt="" />
+            <p class="name">Shadow Analog</p>
+            <p class="discription">
+              A luxury wristwatch featuring a matte black case paired with a
+              sleek black leather strap, offering comfort, elegance, and
+              affordability.
+            </p>
+            <p class="specs">
+              Specification: <br />
+              Matte black stainless steel case with a genuine black leather
+              strap
+              <br />
+              Water Resistance: 5 meters
+            </p>
+            <br />
+            <p>
+              Rs 4000
+              <br />
+              <del>Rs 7000</del>
+            </p>
+            <button class="buy_button">Buy now</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="product">
+            <img src="./../resources/image/Product/watch3.jpeg" alt="" />
+            <p class="name">Kalchakra Pro</p>
+            <p class="discription">
+              A modern digital wristwatch with a black silicone band and a sleek
+              rectangular watch face. Its minimalist design makes it perfect for
+              everyday use and sports activities.
+            </p>
+            <p class="specs">
+              Specification: <br />
+              Material: Silicone strap, Titanium case
+              <br />
+              Water Resistance: 50 meters
+            </p>
+            <br />
+            <br />
+            <p>
+              Rs 25000
+              <br />
+              <del>Rs 30000</del>
+            </p>
+            <button class="buy_button">Buy now</button>
+          </div>
+          <div class="product">
+            <img src="./../resources/image/Product/watch5.jpeg" alt="" />
+            <p class="name">Tosch Watch Pro Max</p>
+            <p class="discription">
+              The TOSCH Pro Max Smartwatch is a premium timepiece designed for
+              the modern tech enthusiast. The sturdy metallic design ensures
+              durability.
+            </p>
+            <p class="specs">
+              Specification: <br />
+              Material: Stainless steel case and band
+              <br />
+              Water Resistance: 90 meters
+            </p>
+            <br />
+            <br />
+            <p>
+              Rs 33999
+              <br />
+              <del>Rs 35000</del>
+            </p>
+            <button class="buy_button">Buy now</button>
+          </div>
+
+          <div class="product">
+            <img src="./../resources/image/Product/watch6.jpeg" alt="" />
+            <p class="name">Hybrid Kalchakra</p>
+            <p class="discription">
+              A luxury smartwatch seamlessly blending classic design with modern
+              technology having circular digital interface with customizable
+              options.
+            </p>
+            <p class="specs">
+              Specification: <br />
+              Material: Stainless steel case with genuine leather strap
+              <br />
+              Water Resistance: 30 meters
+            </p>
+            <br />
+            <p>
+              Rs 18000
+              <br />
+              <del>Rs 20000</del>
+            </p>
+            <button class="buy_button">Buy now</button>
+          </div>
+          <div class="product">
+            <img src="./../resources/image/Product/watch8.jpeg" alt="" />
+            <p class="name">Astra Chrono</p>
+            <p class="discription">
+              A cutting-edge smartwatch with a sleek black silicone strap and a
+              modern rectangular display ideal for both casual and active
+              lifestyles.
+            </p>
+            <p class="specs">
+              <br />
+              Specification: <br />
+              Material: Silicone strap, Stainless steel case
+              <br />
+              Water Resistance: 30 meters
+            </p>
+            <br />
+            <br />
+            <p>
+              Rs 7499
+              <br />
+              <del>Rs 10000</del>
+            </p>
+            <button class="buy_button">Buy now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <!-- footer of our product page : footer-->
+      <div class="footer">
+        <div class="footer1">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="./../index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+          </ul>
+        </div>
+        <div class="footer2">
+          <h3>Follow Us</h3>
+          <ul>
+            <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+            <li><a href="https://www.twitter.com/" target="_blank">Twitter</a></li>
+            <li><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
+          </ul>
+        </div>
+        <div class="footer3">
+          <h3>Contact Us</h3>
+          <ul>
+            <li>Phone: 123-456-7890</li>
+            <li>Email: .......@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottomFooter">
+        <p>&copy; 2025 Kalchakra. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

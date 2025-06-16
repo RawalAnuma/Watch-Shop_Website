@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="Group 2" content="Course Work" />
+    <meta name="Author" content="Aayush, Asmit, Anuma, Sujita, Santoshi" />
+    <link rel="stylesheet" href="./../css/style.css" />
+    <title>Kalchakra</title>
+    <style>
+      /* Specific styles for the blog page page */
+
+      .blog_title {
+        color: white;
+        text-align: center;
+      }
+      .blogimage {
+        display: flex;
+        justify-content: center;
+      }
+
+      .blogimage img {
+        height: 350px;
+        width: 400px;
+        border-radius: 10px;
+      }
+      .blog_content {
+        padding: 30px 10px;
+      }
+      .blog_content p,
+      .blog_content ul {
+        text-align: justify;
+        padding: 10px;
+      }
+
+      .blog_content th {
+        font-size: 18px;
+        padding: 10px;
+        border: 2px solid;
+      }
+      .blog_content td {
+        padding: 10px;
+        border-style: inset;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="../index.html">
+        <img src="./../resources/image/logo/logo.jpeg" alt="logo"
+      /></a>
+      <h1>The Wheel Of Time</h1>
+      <button>LogOut</button>
+    </header>
+    <!--creating nav bar section using table-->
+    <nav>
+      <table class="nav_table">
+        <tr>
+          <td><a href="./../index.html">Home</a></td>
+          <td><a style="color: #b4ecba" href="#">Blog</a></td>
+          <td><a href="products.html">Products</a></td>
+          <td><a href="research.html">Research</a></td>
+          <td><a href="about_us.html">About Us</a></td>
+        </tr>
+      </table>
+    </nav>
+    <!-- a scroll up button to scroll the window to top -->
+    <button class="scroll_up" id="scroll_button" onclick="scroll_to_top()">
+      ↑
+    </button>
+    <h1 class="blog_heading">Blog</h1>
+    <article class="blog">
+      <div class="blog_body">
+        <div class="blog_title">
+          <h2>
+            How Technology Shapes the Watch Industry: <br />
+            Pros & Cons
+          </h2>
+
+          <figure class="blogimage">
+            <img src="./../resources/image/blog/blog.jpeg" alt="technology" />
+          </figure>
+        </div>
+
+        <div class="blog_content">
+          <h3>History of watches</h3>
+          <p>
+            Step back in history of watches; the arrow of time waits for no one.
+            Portable spring-driven clocks were invented in the 15th century, the
+            very first watch was produced in Nuremberg, Germany, by Peter
+            Henlein. His spring-loaded design had a dial that was about 75mm, so
+            it was much more suited to be worn on a pendant or attached to a
+            belt. But it was a portable timepiece, and that's why Henlein is
+            widely regarded as the father of modern watches.
+          </p>
+          <br />
+          <h3>Evolution of watch technology</h3>
+          <p>
+            Today's people are looking forward to wearable technology such as
+            Pebbles and Google glasses, the watch was actually the original
+            wearable technology. Modern watches are masterfully crafted by
+            engineers, horologists, and designers. The portable timepiece was
+            the clock watch which were designed to be worn around the neck and
+            were largely ornamental. Still, they were, and are, beautiful and
+            made for unique pendants and also Pocket watches became popular
+            along with the waistcoat in the 17th century. Meanwhile,
+            smartwatches are transforming the industry by integrating features
+            like health monitoring, GPS, and connectivity . Whether we
+            appreciate the timeless elegance of mechanical movements or the
+            versatility of contemporary watches, the world of horology offers
+            something extraordinary for everyone.
+          </p>
+          <br />
+          <!-- About postive and negative impacts in tabular form -->
+          <h3>Positive Impacts and Negative Impacts</h3>
+          <table style="border: 1px solid" class="blog_table">
+            <tr>
+              <th><u>Positive Impacts</u></th>
+              <th><u>Negative Impacts</u></th>
+            </tr>
+            <tr>
+              <td>
+                <ul>
+                  <li>
+                    Budget-friendly alternative: Compared to smartphones or
+                    laptops, they are more affordable and accessible, making
+                    them a cost-effective option for tech-savvy students
+                  </li>
+                  <li>
+                    Productivity and focus: Watches are more than just trendy
+                    gadgets; they are true powerhouses that enhance productivity
+                    and concentration for people.
+                  </li>
+                  <li>
+                    Convenience and everyday use: Watches present a
+                    revolutionary change in day-to-day life. This is to a large
+                    extent considered to be the only real piece of accessory to
+                    enhances style and appearance.
+                  </li>
+                  <li>
+                    Time management and organization: Watches help streamline
+                    the process of staying organised, empowering students to
+                    excel academically while maintaining a well-rounded
+                    lifestyle.
+                  </li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>
+                    Skin Irritation: Wearing a watch too tightly causes skin
+                    irritation, rashes, or allergic reactions due to the rubbing
+                    of the material of the watch band against the skin.
+                  </li>
+                  <li>
+                    Poor circulation: If the watchband is very tight, it could
+                    potentially cut off blood circulation to the wrist and give
+                    rise to other circulation problems.
+                  </li>
+                  <li>
+                    Radiation exposure: Smart feature watches, just like
+                    smartwatches, do emit some forms of electromagnetic
+                    radiation, which, though within known safe limits.
+                  </li>
+                  <li>
+                    Overdependence on time: The person who always looks at the
+                    time is less connected with the moment and may become
+                    somewhat oblivious to being present and investing in what is
+                    currently happening.
+                  </li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+
+          <br />
+          <!-- conclusion of the blog content in gist -->
+          <h3>Conclusion</h3>
+          <p>
+            From the convenience of time-keeping to their application as a tool
+            for personal expression to their very specialized application in
+            sports and diving, timepieces indeed are timeless accessories. Apart
+            from the status they bring, they may have sentimental value;
+            nevertheless, watches have negative effects on the environment,
+            stress levels, and dependency on technology excessively. Watches
+            would remain truly treasured accessories which make constant
+            readjustments to person's needs and lifestyle by balancing the
+            advantages with considerate use.
+          </p>
+        </div>
+      </div>
+    </article>
+
+    <footer>
+      <div class="footer">
+        <div class="footer1">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="./../index.html">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+          </ul>
+        </div>
+        <div class="footer2">
+          <h3>Follow Us</h3>
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com/" target="_blank">Twitter</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer3">
+          <h3>Contact Us</h3>
+          <ul>
+            <li>Phone: 123-456-7890</li>
+            <li>Email: .......@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottomFooter">
+        <p>&copy; 2025 Kalchakra. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

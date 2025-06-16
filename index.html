@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="Group 2" content="Course Work" />
+    <meta name="Author" content="Aayush, Asmit, Anuma, Sujita, Santoshi" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Kalchakra</title>
+    <style> /* Specific styles for the home page */
+      
+      .home_text {
+        margin-top: 100px;
+        padding-top:  25px;
+       
+        font-style: oblique;
+      }
+     
+
+      .heading {
+        font-size: 25px;
+        color: white;
+
+        text-align: center;
+      }
+      .featured_products {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        flex-wrap: wrap;
+      }
+
+      .featured_products div {
+        background-color: #616161;
+
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column; 
+        margin: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 5px #eee2e2;
+      }
+
+      .featured_products img {
+        padding: 20px;
+        height: 300px;
+        width: 300px;
+        border-radius: 40px;
+      }
+
+      .home_content {
+        margin: 40px;
+        padding: 30px;
+        background-color: #616161;
+        color: white;
+        border-radius: 20px;
+        flex-wrap: wrap;
+      }
+      .blog_content, .research_content {
+        display: inline-flex;
+
+      }
+      .text {
+        
+        margin-right: 20px;
+       
+        padding: 20px;
+      }
+      .text p{
+        padding: 20px;
+        text-align: justify;
+        font-size: 20px;
+      }
+
+      .blog_photo img,
+      .product_photo img ,.research_photo img{
+        border-radius: 20px;
+        height: 400px;
+        width: 400px;
+      }
+      .product_content {
+        display: flex;
+      }
+      .product_photo {
+        margin-left: 20px;
+        width: 30%;
+      }
+      .product_name{
+        color: white;
+        font-size: large;
+      }
+      .aboutus_content {
+        padding: 30px;
+      }
+      .about_member {
+        display: flex;
+        justify-content: center;
+      }
+      .members_photo {
+        text-align: center;
+        padding: 30px;
+      }
+      .members_photo img {
+        padding-bottom: 10px;
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+      }
+      .learn_aboutus {
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="#"><img src="./resources/image/logo/logo.jpeg" alt="logo" /></a>
+      <h1>The Wheel Of Time</h1>
+      <button>LogOut</button>
+    </header>
+    <!--creating nav bar section using table-->
+    <nav>
+
+      <table class="nav_table"> 
+        <tr>
+          <td ><a style="color: #b4ecba;" href="index.html">Home</a></td>
+          <td><a href="./html/blog.html">Blog</a></td>
+          <td><a href="./html/products.html">Products</a></td>
+          <td><a href="./html/research.html">Research</a></td>
+          <td><a href="./html/about_us.html">About Us</a></td>
+        </tr>
+      </table>
+    </nav>
+    
+    
+
+    <section style="height: 650px;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    background: linear-gradient(to right, #333, #616161);"  class="home">
+      <div class="home_text">
+       
+        <h1 style="font-size: 50px">Welcome to Kalchakra Stores</h1> 
+        <p style="font-size: 30px;">
+          Turn the Wheel, Watch the Legend Unfold - <br>
+           Stream The Wheel of Time Now!
+        </p>
+      </div>
+    </section>
+      <!-- a scroll up button to scroll the window to top -->
+    <button class="scroll_up" id="scroll_button" onclick="scroll_to_top()">
+      ↑
+    </button>
+    <section class="featured">
+      <div class="heading">
+        <h2>Featured Products</h2>
+      </div>
+      <!-- creating a container for featured products -->
+      <div class="featured_products">
+        <div class="image1">
+          <img src="resources/image/Product/watch1.jpeg" alt="Watch" />
+          <p class="product_name">Kalchakra Analog 1</p>
+          <button class="home_button">
+            <a href="./html/products.html"> View More</a>
+          </button>
+        </div>
+        <div class="image2">
+          <img src="./resources/image/Product/watch2.jpeg" alt="Watch" />
+          <p class="product_name">Classic Ariantal</p>
+          <button class="home_button">
+            <a href="./html/products.html"> View More</a>
+          </button>
+        </div>
+        <div class="image3">
+          <img src="./resources/image/Product/watch3.jpeg" alt="Watch" />
+          <p class="product_name">Kalchakra Pro</p>
+          <button class="home_button">
+            <a href="./html/products.html"> View More</a>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Section for a  blog in short -->
+    <section class="home_content">
+      <h1 style="text-align: center"><u>Blog</u></h1>
+      <div class="blog_content">
+        <div class="text">
+          <h2>
+            How Technology Shapes the Watch Industry: Pros & Cons 
+          </h2>
+          <p>
+            Step back in history of watches; the arrow of time waits for no one.
+            Portable spring-driven clocks were invented in the 15th century, the
+            very first watch was produced in Nuremberg, Germany, by Peter
+            Henlein. His spring-loaded design had a dial that was about 75mm, so
+            it was much more suited to be worn on a pendant or attached to a
+            belt. But it was a portable timepiece, and that's why Henlein ...  
+            <a href="./html/blog.html"> Read More</a>
+          </p>
+        </div>
+
+        <figure class="blog_photo">
+          <img src="./resources/image/blog/blog.jpeg" alt="blog" />
+        </figure>
+      </div>
+    </section>
+    <!-- section for products in short-->
+    <section class="home_content">
+      <h1 style="text-align: center"><u>Products</u></h1>
+      <div class="product_content">
+        <figure class="product_photo">
+          <img id="img" src="./resources/image/Product/watch2.jpeg" alt="products" />
+        </figure>
+        
+        
+        <div class="text" style="margin-left: 40px">
+          <h2>Discover the world class watches that makes your time Good.</h2>
+          <p>
+            Discover the perfect watch that complements your fashion sense. Kalchakra watches are crafted from the finest raw materials and assembled with scrupulous attention to detail.
+            <br>
+            <br>
+            Explore to the exclusive watches available at Kalchakra Store!
+          </p>
+          <button class="home_button">
+            <a href="./html/products.html">Explore More</a>
+          </button>
+        </div>
+      </div>
+    </section>
+      <!-- Section for a research in short --> 
+    <section class="home_content">
+      <h1 style="text-align: center"><u>Research</u></h1>
+      <div class="research_content">
+        <div class="text">
+          <h2>
+            Analyzing the Shopping Experience
+          </h2>
+          <p>
+            With a focus on user-centric design, our team analyzed this website in the context of broader e-commerce trends. This comparative research aims to understand how the site's features impact the overall shopping experience. <a href="./html/research.html"> View More</a>
+          </p>
+        </div>
+
+        <div class="research_photo">
+          <img src="./resources/image/research/home.jpeg" alt="research" />
+        </div>
+    </section>
+     <!-- Section for a about_us in short -->
+    <section class="home_content">
+      <h1 style="text-align: center"><u>About Us</u></h1>
+      <div class="aboutus_content">
+        <div class="about_member">
+          <div class="members_photo">
+            <img src="./resources/image/members/asmit.jpeg" alt="Asmit" />
+            Asmit Bastola
+          </div>
+          <div class="members_photo">
+            <img src="./resources/image/members/sujita.jpeg" alt="Sujita" />
+            Sujita Pandey
+          </div>
+          <div class="members_photo">
+            <img src="./resources/image/members/santoshi.jpeg" alt="Santoshi" />
+            Santoshi Gurung
+          </div>
+          <div class="members_photo">
+            <img src="./resources/image/members/anuma.jpeg" alt="Anuma" />
+            Anuma Rawal
+          </div>
+          <div class="members_photo">
+            <img src="./resources/image/members/aayush.jpeg" alt="Aayush" />
+            Aayush Bastola
+          </div>
+        </div>
+        <div class="learn_aboutus">
+          <button class="home_button">
+            <a href="./html/about_us.html">See more</a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <!-- creating a container to keep footer elements by making a partition of 3 -->
+      <div class="footer">
+        <div class="footer1">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="./html/blog.html">Blog</a></li>
+            <li><a href="./html/products.html">Products</a></li>
+            <li><a href="./html/research.html">Research</a></li>
+            <li><a href="./html/about_us.html">About Us</a></li>
+          </ul>
+        </div>
+        <div class="footer2">
+          <h3>Follow Us</h3>
+          <ul>
+            <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+            <li><a href="https://www.twitter.com/" target="_blank">Twitter</a></li>
+            <li><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
+          </ul>
+        </div>
+        <div class="footer3">
+          <h3>Contact Us</h3>
+          <ul>
+            <li>Phone: 123-456-7890</li>
+            <li>Email: .......@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottomFooter">
+        <p>&copy; 2025 Kalchakra. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <!-- linking external javascript -->
+    <script src="./js/script.js"></script>
+   <!-- function to keep on changing the image  -->
+    <script>
+      var images = ["./resources/image/Product/watch1.jpeg","./resources/image/Product/watch2.jpeg","./resources/image/Product/watch6.jpeg","./resources/image/Product/watch8.jpeg"];
+      var x = 0;
+      var imgs = document.getElementById("img");
+      setInterval(slider, 3000);
+
+      function slider() {
+        if (x < images.length-1) {
+          x = x + 1;
+        } else {
+          x = 0;
+        }
+         imgs.src= images[x] ;
+      }
+    </script>
+
+  </body>
+</html>
