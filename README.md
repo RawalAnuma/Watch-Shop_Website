@@ -43,9 +43,7 @@ git clone https://github.com/your-username/watch-shop.git
 # Usage
   Browse Watches: Visit the homepage or products page to see all available     watches.
 
-  View Details: Click on a watch to view its full description and high-        resolution images.
-
-  Contact Us: Use the contact page for inquiries or customer support.
+  View Details: Click on a watch to view its full description and high-resolution images.
 
 
 # Contributing
